@@ -87,10 +87,21 @@ a {
     color: #162542;
     border-radius: 4px;
     padding: 16px 26px;
+    transition: transform 0.3s ease-in-out;
 }
 
+.button:hover,
+.button:focus{
+    background-color: #162542;
+    color: #fff;
+    
+}
+
+.button:hover:{
+    transition: transform 0.3s ease-in-out;
+}
 /* main section */
-.maine {}
+
 
 .main-section {
     /* max-width: 1440px;
@@ -138,6 +149,12 @@ a {
     border-radius: 8px;
     border-style: none;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-button:hover,
+.main-button:focus{
+    background-color: #FF9B62;
 }
 
 .release-data {
@@ -186,10 +203,11 @@ a {
 }
 
 .product-section-list {
-   display: flex;
-   gap: 30px;
+    display: flex;
+    gap: 30px;
 }
-.product-wrap{
+
+.product-wrap {
     display: flex;
 }
 
@@ -220,3 +238,67 @@ a {
     margin-top: 142px;
 }
 
+/* The third section */
+.icons-section {
+    padding-top: 168px;
+    padding-bottom: 193px;
+}
+
+.icons-list {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.svg-icons-span {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    padding: 20px 22px;
+    border-radius: 16px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-icons {
+    fill: #fff;
+flex-shrink: 0;
+
+}
+
+.icons-sec-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 117%;
+    text-transform: uppercase;
+    color: #162542;
+    margin-bottom: 24px;
+    max-width: 255px;
+    box-sizing: border-box;
+    
+}
+
+.icons-sec-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #7b8bad;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    max-width: 255px;
+    
+}
+
+.Mariia{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.Mariia-Beliak:hover{
+    color: #F16718;
+  
+
+}
